@@ -1,0 +1,290 @@
+[10-Sep-2021 18:09:26 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 7
+[10-Sep-2021 18:09:26 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 7
+[10-Sep-2021 18:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function all() in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:8
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_setup('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/script-loader.php(2083): do_action('wp_enqueue_scri...')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_scripts('')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/skamau/Local Sites/ridhikawebsite/a in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 8
+[10-Sep-2021 18:10:49 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 8
+[10-Sep-2021 18:10:49 UTC] PHP Stack trace:
+[10-Sep-2021 18:10:49 UTC] PHP   1. {main}() /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php:0
+[10-Sep-2021 18:10:49 UTC] PHP   2. require() /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php:17
+[10-Sep-2021 18:10:49 UTC] PHP   3. require_once() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php:19
+[10-Sep-2021 18:10:49 UTC] PHP   4. include() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template-loader.php:106
+[10-Sep-2021 18:10:49 UTC] PHP   5. get_header() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php:1
+[10-Sep-2021 18:10:49 UTC] PHP   6. locate_template() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/general-template.php:48
+[10-Sep-2021 18:10:49 UTC] PHP   7. load_template() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php:716
+[10-Sep-2021 18:10:49 UTC] PHP   8. require_once() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php:770
+[10-Sep-2021 18:10:49 UTC] PHP   9. wp_head() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/header.php:8
+[10-Sep-2021 18:10:49 UTC] PHP  10. do_action() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/general-template.php:3015
+[10-Sep-2021 18:10:49 UTC] PHP  11. WP_Hook->do_action() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php:470
+[10-Sep-2021 18:10:49 UTC] PHP  12. WP_Hook->apply_filters() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php:327
+[10-Sep-2021 18:10:49 UTC] PHP  13. wp_enqueue_scripts() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php:303
+[10-Sep-2021 18:10:49 UTC] PHP  14. do_action() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/script-loader.php:2083
+[10-Sep-2021 18:10:49 UTC] PHP  15. WP_Hook->do_action() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php:470
+[10-Sep-2021 18:10:49 UTC] PHP  16. WP_Hook->apply_filters() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php:327
+[10-Sep-2021 18:10:49 UTC] PHP  17. gt_setup() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php:303
+[10-Sep-2021 18:20:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/includes/translation-install.php on line 68
+[10-Sep-2021 18:20:08 UTC] PHP Stack trace:
+[10-Sep-2021 18:20:08 UTC] PHP   1. {main}() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/options-general.php:0
+[10-Sep-2021 18:20:08 UTC] PHP   2. wp_get_available_translations() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/options-general.php:159
+[10-Sep-2021 18:20:08 UTC] PHP   3. translations_api() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/includes/translation-install.php:133
+[10-Sep-2021 18:20:08 UTC] PHP   4. trigger_error() /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/includes/translation-install.php:68
+[10-Sep-2021 18:38:02 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:38:04 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:38:05 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:38:43 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:38:43 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:39:26 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:39:26 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:39:27 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:39:27 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:51 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:51 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:53 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:53 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:54 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:40:54 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:45:56 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:45:56 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[10-Sep-2021 18:46:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:46:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:50:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:50:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:51:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:51:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:51:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 38
+[10-Sep-2021 18:51:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 38
+[10-Sep-2021 18:51:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[10-Sep-2021 18:51:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/skamau/L...')
+#7 {main}
+  thrown in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/skamau/L...')
+#7 {main}
+  thrown in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/admin.php(34): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-admin/index.ph in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:08:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function array() on string in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php:37
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(303): gt_custom_post_type('')
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-settings.php(578): do_action('init')
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-config.php(77): require_once('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-load.php(50): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(13): require_once('/Users/skamau/L...')
+#7 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): re in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 37
+[14-Sep-2021 12:10:31 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[14-Sep-2021 12:10:32 UTC] PHP Parse error:  syntax error, unexpected ''dashicons-clipboard'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/functions.php on line 34
+[16-Sep-2021 12:28:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php on line 44
+[16-Sep-2021 12:49:48 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php on line 21
+[16-Sep-2021 12:49:48 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php on line 21
+[16-Sep-2021 12:49:49 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php on line 21
+[16-Sep-2021 12:50:01 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php on line 21
+[18-Sep-2021 12:43:44 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/single.php on line 18
+[20-Sep-2021 16:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_site_url() in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/footer.php:79
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php(716): load_template('/Users/skamau/L...', true, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/front-page.php(327): get_footer()
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template-loader.php(106): include('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(19): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): require('/Users/skamau/L...')
+#7 {main}
+  thrown in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/footer.php on line 79
+[20-Sep-2021 16:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echo_site_url() in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/footer.php:79
+Stack trace:
+#0 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template.php(716): load_template('/Users/skamau/L...', true, Array)
+#2 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/index.php(71): get_footer()
+#4 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-includes/template-loader.php(106): include('/Users/skamau/L...')
+#5 /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-blog-header.php(19): require_once('/Users/skamau/L...')
+#6 /Users/skamau/Local Sites/ridhikawebsite/app/public/index.php(17): require('/Users/skamau/L...')
+#7 {main}
+  thrown in /Users/skamau/Local Sites/ridhikawebsite/app/public/wp-content/themes/ridhikasite/footer.php on line 79
