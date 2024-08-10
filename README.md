@@ -13,7 +13,7 @@ Newer updates of our platform are in testing.
 
 ### Run this Site on a Server
 To replicate this server:
-1. Download [link] (https://localwp.com/, "Local") and proceed to install it
+1. Download [Local](https://localwp.com/) and proceed to install it
 2. Add the folder containing this repository to the 'Local sites' folder
 3. Click start site to run a version of the website on your local server
    
